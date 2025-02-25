@@ -43,7 +43,8 @@ int readFreq(){
 
 //Function for moving the LCD display, selceting items and changing values
 void cursor(){
-
+  int hor = map(analogRead(crtH),0,1023,0,1);
+  int ver = map(analogRead(ctV),0,1023,0,1);
 
 
 }
